@@ -12,8 +12,33 @@
 </head>
 <body>
 <main>
-    <h1>Good luck!</h1>
-    <div></div>
+  <div class="icons">
+    <img src="/img/webistry.svg" alt="Webistry">
+    <img src="/img/lewagon.svg" alt="lewagon">
+  </div>
+    <h1><span>Level up your coding skills with Webistry.</span></h1>
+      <div class="container">
+        <p>Let's get started by knowing about you.</p>
+          <form class="form">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="name" placeholder="Enter your Name">
+            <label for="name">Email</label>
+            <input type="text" id="email" class="email" placeholder="Enter your E-mail">
+            <label for="language">What is your favorite language</label> <br>
+            <select name="language" id="language">
+              <option value="0" selected="selected"></option>
+              <option value="1">Ruby</option>
+              <option value="2">Python</option>
+              <option value="3">Php</option>
+              <option value="4">JavaScript</option>
+          </select>
+          </form>
+            <br>
+            <br>
+            <input type="checkbox">
+            <label for="vehicle1">The information provided above is accurate</label><br>
+            <br> <button type="button" class="btn btn-primary">Level Up</button>
+    </div>
 </main>
 <script src="main.js"></script>
 </body>

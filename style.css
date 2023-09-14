@@ -1,3 +1,154 @@
 body {
-    font-family: 'Work Sans', sans-serif;
+  background-color: rgb(226, 226, 226);
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
+
+h1 {
+  margin: 10px;
+  max-width: 400px; /* Defina a largura máxima desejada */
+  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+  padding: 20px;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+  background-color: white;
+  border: 1px solid #ccc;
+  max-width: 400px; /* Defina a largura máxima desejada */
+  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+  padding: 20px;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.form {
+  text-align: left;
+}
+
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form input[type="text"],
+.form select {
+  width: 20vw;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.btn {
+  background-color: #fe5a54;
+  width: 75vw;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container > * {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: rgb(239, 239, 240);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  color: #333;
+  margin: 10px;
+}
+
+form.name input[type="text"] {
+  width: 38vw;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select.form-control {
+  width: 40vw;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.btn-primary {
+  background-color: #ea4c29;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40vw;
+}
+
+
+label[for="vehicle1"] {
+  font-weight: bold;
+} */
