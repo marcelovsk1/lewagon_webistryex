@@ -12,25 +12,32 @@ h1 {
   margin: 10px;
   max-width: 400px; /* Defina a largura máxima desejada */
   margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
-  padding: 20px;
   text-align: center;
+  font-size: 50px;
+  padding: 20px;
   font-family: 'Work Sans', sans-serif;
 }
 
+.level-up {
+  /* Your CSS styles for "Level up" text here */
+  font-weight: bold; /* Example style: make it bold */
+  color: #fe5a54;   /* Example style: change text color */
+}
+
+/* Estilo do Container */
 .container {
   background-color: white;
-  border: 1px solid #ccc;
-  max-width: 400px; /* Defina a largura máxima desejada */
-  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+  max-width: 400px;
+  margin: 0 auto;
   padding: 20px;
-  text-align: center;
+  border-radius: 10px;
   font-family: 'Work Sans', sans-serif;
 }
 
+/* Estilo do Formulário */
 .form {
   text-align: left;
 }
-
 
 .form label {
   display: block;
@@ -39,30 +46,36 @@ h1 {
 
 .form input[type="text"],
 .form select {
-  width: 20vw;
+  width: 25.5vw; /* Preenchimento total da largura do container */
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
+#language {
+width: 27vw; /* Preenchimento total da largura do container */
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
 .form input[type="checkbox"] {
   margin-right: 5px;
 }
 
+/* Estilo do Botão */
 .btn {
   background-color: #fe5a54;
-  width: 75vw;
+  width: 100%; /* Preenchimento total da largura do container */
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.container > * {
-  margin-bottom: 10px;
-}
 
 
 
